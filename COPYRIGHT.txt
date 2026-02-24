@@ -1,0 +1,7 @@
+﻿Copyright (c) 2026 Zenato
+
+All rights reserved.
+
+This software and its source code may not be copied, modified,
+distributed, sublicensed, or used for commercial purposes without
+explicit written permission from the author.
