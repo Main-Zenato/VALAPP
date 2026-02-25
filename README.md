@@ -74,7 +74,7 @@ APIs and integrations used by the application may change over time.
 
 ## 🚀 Project Vision
 
-VALAPP is designed as a scalable desktop companion tool with long-term expansion plans, including advanced analytics and additional premium features.
+VALAPP is designed as a scalable desktop companion tool with long-term expansion plans, including advanced analytics.
 
 ---
 
