@@ -1,81 +1,78 @@
-﻿# VALAPP
+﻿# VALAPP — Modern Desktop Companion for VALORANT
 
-Modern Windows desktop companion for Riot account management and Valorant insights.
+[![Download](https://img.shields.io/badge/Download-Latest%20Release-green)](https://github.com/Main-Zenato/VALAPP-desktop/releases)
+![Downloads](https://img.shields.io/github/downloads/Main-Zenato/VALAPP-desktop/total)
+![Platform](https://img.shields.io/badge/platform-Windows-blue)
 
-VALAPP is a lightweight and fully local Windows application built with .NET 8 (WPF).  
-It provides a clean and secure way to manage Riot accounts and access in-game related information through a fast desktop interface.
-
----
-
-## ✨ Features
-
-- Secure Riot account authentication (WebView2)
-- Multi-account management
-- Store overview
-- Collection viewer
-- Contracts & progression tracking
-- Party & status overview
-- Fully local architecture
-- Automatic update detection via GitHub Releases
+VALAPP is a **lightweight, secure, and high-performance desktop companion for VALORANT**.  
+It is designed for players who want **full control over their inventory and game insights** without dealing with the slow menus of the official client.
 
 ---
 
-## 🛡 Security & Privacy
+# 🚀 Exclusive Features
 
-Security and privacy are core priorities.
+## 🔫 Real-Time Pregame Skin Swapping
+Never be stuck with the wrong skin again.
 
-- Credentials are stored securely using **Windows Credential Manager**
-- No third-party analytics
+VALAPP allows you to **change your weapon skins, buddies, and chromas directly during the Agent Selection phase**, before the match even begins.
+
+---
+
+## ⚔️ Instant Tactical Insight
+As soon as you enter the **Pregame phase**, VALAPP analyzes network data to provide immediate information:
+
+- **Starting Side:** Instantly know if you are starting on **Attack or Defense** to better adapt your strategy before the match begins.
+
+---
+
+# ✨ Core Features
+
+### 🎒 Advanced Collection Manager
+View your entire inventory of **skins, buddies, sprays, and cosmetics** in a sleek and modern dashboard.
+
+### 🛒 Store & Night.Market Tracker
+Check your **daily weapon store offers** and **Night.Market discounts** instantly without launching the game.
+
+### 👥 Secure Multi-Account Management
+Switch between different **Riot accounts in seconds**.
+
+### 🔒 100% Local & Private
+Your credentials are stored securely using **Windows Credential Manager**.
+
+- No data ever leaves your computer  
+- No analytics  
 - No external tracking
-- No background data harvesting
-- No credential logging
-
-All user data remains on the user’s local machine.
 
 ---
 
-## ⚙ Technical Stack
+# 🛠 Installation & Setup
 
-- C# / .NET 8
-- WPF (MVVM architecture)
-- Modular service-based design
-- Structured logging
-- Release builds distributed in optimized form
-
-The application follows clean architecture principles with clear separation between UI, services, and data models.
+1. Download the **latest version** from the **Releases** tab.
+2. Launch `Valapp.exe`.
+3. Log in using the **secure Riot login** via the WebView2 interface.
 
 ---
 
-## 📦 Installation
+# 💻 Requirements
 
-Download the latest version from the **Releases** section.
-
-### Requirements
-
-- Windows 10 / 11
-- Microsoft Edge WebView2 Runtime
+- Windows 10 / 11 (64-bit)
+- .NET 8 Runtime
+- WebView2 Runtime (usually already installed with Windows)
 
 ---
 
-## 🔄 Updates
+# ⚙️ Technical Details
 
-VALAPP checks for new versions at startup.  
-If a newer release is available, a notification will appear.
-
----
-
-## 📌 Disclaimer
-
-VALAPP is an independent desktop application and is not affiliated with Riot Games.
-
-APIs and integrations used by the application may change over time.
+- **Framework:** .NET 8  
+- **Architecture:** WPF (Windows Presentation Foundation) using MVVM  
+- **Versioning:** Automatically synchronized with the latest live client version (currently `release-12.04`)
 
 ---
 
-## 🚀 Project Vision
+# 📌 Disclaimer
 
-VALAPP is designed as a scalable desktop companion tool with long-term expansion plans, including advanced analytics.
+VALAPP is an **independent third-party application** and is **not affiliated with Riot Games**.
 
----
+VALAPP does **not interact with game memory, files, or Vanguard**, making it **anti-cheat safe by design**.
 
-© 2026 VALAPP – All rights reserved.
+However, the use of third-party tools is **at the user's own discretion**.
